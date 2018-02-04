@@ -9,6 +9,7 @@ body{
     background-color: #ffffff;
     border: 10px;
     border-color: #cccccc;
+    margin: auto;
 }
 
 .name{
@@ -27,6 +28,12 @@ body{
     text-align: center;
     background-color: #666666;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    margin: auto;
 }
 
 .container{
@@ -34,6 +41,7 @@ body{
     background-color: #ffffff;
     border: 2px;
     border-color: #dddddd;
+    margin: auto;
 }
 
 .box{
@@ -49,4 +57,15 @@ body{
 
 .content{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.box2{
+    width: 270px;
+    height: 200px;
+    float: right;
+}
+
+.box2header{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
 }
