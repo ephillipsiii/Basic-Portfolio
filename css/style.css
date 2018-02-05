@@ -1,5 +1,5 @@
 body{
-    background-color: #4aaaa5;
+    background-color: #4a50aa;
 }
 
 
@@ -10,6 +10,7 @@ body{
     border: 10px;
     border-color: #cccccc;
     margin: auto;
+    
 }
 
 .name{
@@ -49,10 +50,13 @@ body{
     background-color: #ffffff;
 }
 
-.box header{
+.box-header{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
-    border-style: bottom;
+    border-bottom-style: solid;
+    font-size: 100%;
+    width: 200px;
+    height: 60px;
 }
 
 .content{
@@ -65,7 +69,14 @@ body{
     float: right;
 }
 
-.box2header{
+.box2-header{
     font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    border-bottom-style: solid;
+}
 
+.text{
+    width: 200px;
+    height: 50px;
+    background-color: #4aaaa5;
 }
